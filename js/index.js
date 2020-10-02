@@ -38,5 +38,23 @@ const siteContent = {
 };
 
 // Example: Update the img src for the logo
-let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"])
+const logo = document.getElementById("logo-img");
+logo.setAttribute('src', 'img/logo.png')
+
+let nav
+
+
+/*
+for (let i = 0; i < navItems.length; i++) {
+  navItems[i].style.color = 'green';
+}
+
+let navHome = document.createElement('a');
+navHome.textContent = 'Home';
+nav.prepend(navHome);
+
+let navPineapple = document.createElement('a');
+navPineapple.textContent = 'Pineapple';
+nav.appendChild(navPineapple); */
+
+
