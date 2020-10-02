@@ -41,7 +41,12 @@ const siteContent = {
 const logo = document.getElementById("logo-img");
 logo.setAttribute('src', 'img/logo.png')
 
-let nav
+const ctaLogo = document.getElementById("cta-img");
+ctaLogo.setAttribute('src','img/header-img.png');
+
+const middleImage = document.getElementById("middle-img"); 
+middleImage.setAttribute('src', 'img/mid-page-accent.jpg');
+
 
 
 /*
