@@ -49,6 +49,22 @@ middleImage.setAttribute('src', 'img/mid-page-accent.jpg');
 
 
 
+
+const product = document.getElementsByTagName('a')[0];
+services.innerText = siteContent['nav']['nav-item-1']; 
+services.style.color = 'grenn';
+
+const product = document.getElementsByTagName('a')[1];
+product.innerText = siteContent['nav']['nav-item-2'];
+product.style.color = 'green';
+
+
+
+
+
+
+
+
 /*
 for (let i = 0; i < navItems.length; i++) {
   navItems[i].style.color = 'green';
